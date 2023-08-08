@@ -1,0 +1,22 @@
+{
+    "name": "daniel/bienes_raices",
+    "description": "Creando un proyecto con programacion orientada a objetos",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Daniel Rodriguez",
+            "email": "danielrodriguezalonso02@gmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7",
+        "phpmailer/phpmailer": "^6.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Model\\" : "./models",
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers"
+        }
+    }
+}
