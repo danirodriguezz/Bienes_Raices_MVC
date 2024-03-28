@@ -21,13 +21,13 @@ class Router {
 
         //Asignamos las rutas que son protegidas
         $rutas_protegidas = [
-            "/admin", 
-            "/propiedades/crear", 
-            "/propiedades/actualizar",
-            "/propiedades/eliminar",
-            "/vendedores/crear",
-            "/vendedores/actualizar",
-            "/vendedores/eliminar"
+        //     "/admin", 
+        //     "/propiedades/crear", 
+        //     "/propiedades/actualizar",
+        //     "/propiedades/eliminar",
+        //     "/vendedores/crear",
+        //     "/vendedores/actualizar",
+        //     "/vendedores/eliminar"
         ];
         $urlActual = $_SERVER["PATH_INFO"] ?? "/";
         $metodo = $_SERVER["REQUEST_METHOD"];
